@@ -18,9 +18,6 @@ layer(base);
   --animate-*: initial;
   --animate-fade: fadeIn 1.2s ease-in-out;
 
-  --color-mango: #f3ae23;
-  --color-mango-2: #c28b1c;
-  --color-mango-3: #ae5f05;
 
   @keyframes fadeIn {
     from {
