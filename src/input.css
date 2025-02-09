@@ -47,6 +47,16 @@ layer(base);
   }
 }
 
+@layer components {
+  .card {
+    @apply w-[95%] p-6  rounded-3xl transition-colors;
+  }
+  .card-tag {
+    @apply text-sm  p-2 px-2 rounded-4xl;
+  }
+}
+
+
 ::webkit-scrollbar {
     display: none;
 }
