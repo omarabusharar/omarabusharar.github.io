@@ -18,7 +18,7 @@ TODO://
     </head>
     
     <body class="h-screen font-sans">
-        <nav class="fixed flex place-content-between dark:bg-black bg-white/40 dark:text-white  backdrop-blur-xl rounded-b-md  z-50 animate-fade p-4 w-full">
+        <nav class="fixed flex place-content-between dark:bg-black/40 bg-white/40 dark:text-white backdrop-blur-2xl rounded-b-md  z-50 animate-fade p-4 w-full">
             <h1 class="font-sans  font-medium ">Omar Abu Sharar</h1>
             <div class="flex">
                 <a href="https://github.com/omarabusharar" class="hover:underline">GitHub</a>
@@ -28,56 +28,52 @@ TODO://
             
         </nav>
      
-        <main class="py-20 w-full dark:bg-black dark:text-white">
+        <main class="py-20 w-full dark:bg-black dark:text-black">
             <section class="flex flex-col place-items-center gap-3">
-                <header class="w-[95%] px-6 font-medium flex place-content-between">
+                <header class="w-[95%] px-6 font-medium flex place-content-between dark:text-white">
                     <h1>What I'm Doing</h1> 
                     <h1 class="font-icon">directions_run</h1>
                 </header>
                 <!--Add GIF of app being used or just different frames slowly transitioning between, same for all apps-->
-                <div class="card bg-yellow-100/60 hover:bg-yellow-100">
+                <div class="card bg-red-300  bg-linear-to-b   from-yellow-300/80  via-40% to-red-400/50   dark:hover:text-white">
                     <header class="flex place-content-between">
-                        <h2 class="font-medium text-2xl">Ductivity</h2>
+                        <h2 class="font-medium text-2xl text-wh">Ductivity</h2>
                         <!--Placeholder Icon, Replace it with logo-->
                         <h2 class="font-icon text-2xl">image</h2>
                     </header>
-                    <h3 class="text-zinc-800 text-md">AI Study Buddy for iPhone, iPad, Mac, Apple Watch, and Apple Vision Pro.</h3>
+                    <h3 class="text-md">AI Study Buddy for iPhone, iPad, Mac, Apple Watch, and Apple Vision Pro.</h3>
                     <footer class="flex place-content-between items-center pt-4">
-                        <div class="flex space-x-2">
-                            <p class="text-yellow-400 card-tag bg-yellow-400/10">Feb 2025 - Present</p>
-                            <p class="text-yellow-400 card-tag bg-yellow-400/10">SwiftUI</p>
-                            <p class="text-yellow-400 text-sm  p-2 px-3 rounded-4xl bg-yellow-400/10">AI</p>
-                            <p class="text-yellow-400 text-sm  p-2 px-3 rounded-4xl bg-yellow-400/10">AR</p>
+                        <div class="flex space-x-2   [&>*]:card-tag [&>*]:bg-red-300/50 [&>*]:dark:text-white-200/80 [&>*]:dark:bg-orange-100/10">
+                            <p class="card-tag">Feb 2025 - Present</p>
+                            <p class="card-tag">SwiftUI</p>
+                            <p class="card-tag">AI</p>
+                            <p class="card-tag">AR</p>
                         </div>
-                
-   
-                        <a href="http://google.com" class="text-white text-sm p-2 ph-2 rounded-4xl bg-yellow-400 hover:shadow-md transition-all">Learn More</a>
+                        <a href="http://google.com" class="card-tag bg-white/20 hover:bg-white/60 transition-all">Learn More</a>
                     </footer>
                 </div>
-                <div class="card bg-orange-100/60 hover:bg-orange-100">
+                <div class="card bg-orange-300  bg-linear-to-b   from-red-300/70  via-30% to-orange-400/50  dark:hover:text-white">
                     <header class="flex place-content-between">
                         <h2 class="font-medium text-2xl">South Programming</h2>
                         <!--Placeholder Icon, Replace it with logo-->
                         <h2 class="font-icon text-2xl">image</h2>
                     </header>
-                    <h3 class="text-zinc-800 text-md">We meet weekly, either preparing for the CCC, developing websites, or discussing cool tech and personal projects.</h3>
+                    <h3 class="text-md">We meet weekly, either preparing for the Canadian Computing Competition, developing websites, or discussing cool tech and personal projects.</h3>
                     <footer class="flex place-content-between items-center pt-4">
-                        <div class="flex space-x-2">
-                            <p class="text-orange-400 card-tag bg-orange-400/10">Nov 2022 - Jun 2025</p>
-                            <p class="text-orange-400 card-tag bg-orange-400/10">Club President</p>
-                          
+                        <div class="flex space-x-2   [&>*]:card-tag [&>*]:bg-orange-400/30 [&>*]:dark:text-white-200/80 [&>*]:dark:bg-orange-100/10">
+                            <p class="card-tag">Nov 2022 - Jun 2025</p>
+                            <p class="card-tag">Club President</p>
                         </div>
-                        <!--Show the sites, maybe replace image with "Our Work" text?-->
-                        <div class="flex items-center space-x-6">
-                            <a href="/index.html" class="font-icon text-orange-400 text-xl">photo_library</a>
-                            <a href="http://south-programming.github.io" class="text-white text-sm p-2 ph-2 rounded-4xl bg-orange-400 hover:shadow-md transition-all">Visit Website</a>
+                       <div class="flex space-x-2 [&>*]:card-tag [&>*]:bg-white/20 [&>*]:hover:bg-white/60 [&>*]:transition-all">
+                            <a href="#" class="card-tag">Our Work</a>
+                            <a href="#" class="card-tag">Website</a>
                         </div>
                     </footer>
                 </div>
             
             </section>
             <section class="pt-10 flex flex-col place-items-center gap-3">
-                <header class="w-[95%] px-6 font-medium flex place-content-between">
+                <header class="w-[95%] px-6 font-medium flex place-content-between dark:text-white">
                     <h1>What I've Done</h1> 
                     <h1 class="font-icon">history</h1>
                 </header>
@@ -90,13 +86,13 @@ TODO://
                     </header>
                     <h3 class="text-zinc-800 text-md">Assisted with studying for Japanese. Minimal UI.</h3>
                     <footer class="flex place-content-between items-center pt-4">
-                        <div class="flex space-x-2">
-                            <p class="text-gray-400 card-tag bg-gray-400/10">Feb 2024 - Jun 2024</p>
-                            <p class="text-gray-400 card-tag bg-gray-400/10">SwiftUI</p>
+                        <div class="flex space-x-2 [&*>]:text-white">
+                            <p class=" card-tag bg-gray-700/20 ">Feb 2024 - Jun 2024</p>
+                            <p class=" card-tag bg-gray-700/20 ">SwiftUI</p>
                         </div>
                 
    
-                        <a href="http://google.com" class="text-white text-sm p-2 ph-2 rounded-4xl bg-gray-400 hover:shadow-md transition-all">View Source</a>
+                        <a href="http://google.com" class="text-white text-sm p-2 ph-2 rounded-4xl bg-gray-400 hover:shadow-md transition-all">Source Code</a>
                     </footer>
                 </div>
                 <div class="card bg-gray-100/60 hover:bg-gray-100">
@@ -105,7 +101,6 @@ TODO://
                     </header>
                     <h1>All health focused applications are demos and their development have stopped. I would like to leave informing about health to the proper professionals.</h1>
                 </div>
-                <!--Add GIF of app being used or just different frames slowly transitioning between, same for all apps-->
                 <div class="card bg-gray-100/60 hover:bg-gray-100">
                     <header class="flex place-content-between">
                         <h2 class="font-medium text-2xl">Hearty</h2>
@@ -114,10 +109,9 @@ TODO://
                     </header>
                     <h3 class="text-zinc-800 text-md">Learn about the Heart and it's functions.</h3>
                     <footer class="flex place-content-between items-center pt-4">
-                        <div class="flex space-x-2">
-                            <p class="text-gray-400 card-tag bg-gray-400/10">Feb 2024</p>
-                            <p class="text-gray-400 card-tag bg-gray-400/10">SwiftUI</p>
-
+                        <div class="flex space-x-2 [&*>]:text-white">
+                            <p class=" card-tag bg-gray-700/20 ">Feb 2024</p>
+                            <p class=" card-tag bg-gray-700/20 ">SwiftUI</p>
                         </div>
                 
    
@@ -130,18 +124,16 @@ TODO://
                         <!--Placeholder Icon, Replace it with logo-->
                         <h2 class="font-icon text-2xl">image</h2>
                     </header>
-                    <h3 class="text-zinc-800 text-md">Learn all about Mental Health. Winner of Apple Swift Student Challenge 2023, presented
+                    <h3 class="text-zinc-800 text-md">Learn all about Mental Health. Winner of Apple Swift Student Challenge 2023, presented the app
                         to CEO Tim Cook.</h3>
                     <footer class="flex place-content-between items-center pt-4">
-                        <div class="flex space-x-2">
-                            <p class="text-gray-400 card-tag bg-gray-400/10">Feb 2023 - Jun 2023</p>
-                            <p class="text-gray-400 card-tag bg-gray-400/10">SwiftUI</p>
-                            <p class="text-gray-400 text-sm  p-2 px-3 rounded-4xl bg-gray-400/10">SpriteKit</p>
+                        <div class="flex space-x-2 [&*>]:text-white">
+                            <p class=" card-tag bg-gray-700/20 ">Feb 2023 - Jun 2023</p>
+                            <p class=" card-tag bg-gray-700/20 ">SwiftUI</p>
                         </div>
-                        <div class="flex space-x-2">
-                         <a href="http://google.com" class="text-sm p-2 px-2 text-gray-400 text-x hover:underline transition-all">Video</a>
-                         <a href="http://google.com" class="text-white text-sm p-2 px-2 rounded-4xl bg-gray-400 hover:shadow-md transition-all">Source Code</a>
-                        </div>
+                
+   
+                        <a href="http://google.com" class="text-white text-sm p-2 ph-2 rounded-4xl bg-gray-400 hover:shadow-md transition-all">Source Code</a>
                     </footer>
                 </div>
                 <div class="card bg-gray-100/60 hover:bg-gray-100">
@@ -150,17 +142,18 @@ TODO://
                         <!--Placeholder Icon, Replace it with logo-->
                         <h2 class="font-icon text-2xl">image</h2>
                     </header>
-                    <h3 class="text-zinc-800 text-md">My first app, made during the COVID lockdown.</h3>
+                    <h3 class="text-zinc-800 text-md">Made during COVID-19 lockdown, my first app. Included Calculator, Riddles, To-Do, and more.</h3>
                     <footer class="flex place-content-between items-center pt-4">
-                        <div class="flex space-x-2">
-                            <p class="text-gray-400 card-tag bg-gray-400/10">Feb 2020 - Jun 2020</p>
-                            <p class="text-gray-400 card-tag bg-gray-400/10">SwiftUI</p>
+                        <div class="flex space-x-2 [&*>]:text-white">
+                            <p class=" card-tag bg-gray-700/20 ">Feb 2020 - Jun 2020</p>
+                            <p class=" card-tag bg-gray-700/20 ">SwiftUI</p>
                         </div>
-                        <div class="flex space-x-2">
-                         <a href="http://google.com" class="text-white text-sm p-2 px-2 rounded-4xl bg-gray-400 hover:shadow-md transition-all">Source Code</a>
-                        </div>
+                
+   
+                        <a href="http://google.com" class="text-white text-sm p-2 ph-2 rounded-4xl bg-gray-400 hover:shadow-md transition-all">Source Code</a>
                     </footer>
                 </div>
+                
             </section>
         </main>
     </body>
