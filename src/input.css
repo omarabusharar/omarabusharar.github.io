@@ -54,6 +54,14 @@ layer(base);
   .card-tag {
     @apply text-sm  p-2 px-4 rounded-4xl;
   }
+  .card-inactive-button {
+    @apply text-black hover:text-white bg-gray-400/50 hover:bg-gray-400 hover:shadow-md transition-all;
+  
+  }
+
+  .info-cell {
+    @apply dark:bg-white/10 not-dark:bg-black/10 rounded-2xl p-4 dark:text-white;
+  }
 }
 
 
